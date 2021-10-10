@@ -10,12 +10,18 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Center(
-        child: Text(
-      'Tamil Glossary',
+    return  Center(
+        child: Container(
+          child: Column(
+            children:[
+              Text(
+      'Tamil Glossary1',
       style: TextStyle(
-        fontSize: 16.0,
+              fontSize: 16.0,
       ),
-    ));
+    ),
+            ],
+          ),
+        ));
   }
 }
