@@ -28,13 +28,31 @@ centerTitle: true,
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(50.0),
                   ),
-                  hintText: 'தேடு'
                 ),
               ),
             ),
+            Container(
+              margin: EdgeInsets.all(20),
+              
+            ),
+            OutlinedButton(
+              
+              onPressed: () {
+                setState(() {
+                 
+                });
+                
+              },
+              child: Text(
+                "தேடு",
+              ),
+              
+              
+            )
             
           ],
         ),
+        
       ),
     ),);
   }
