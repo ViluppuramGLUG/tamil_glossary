@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
           child: Text(
       'Tamil Glossary',
       style: TextStyle(
-          fontSize: 16.0,
+          fontSize: 18.0,
       ),
     ),
         ));
